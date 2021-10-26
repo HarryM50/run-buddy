@@ -7,7 +7,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #39a6b2;
 }
-/* apply styles to <header> */
+
+/* header starts */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -35,6 +36,9 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+/* header ends */
+
+/* footer starts */
 footer {
   background: #fce138;
   width: 100%;
@@ -57,6 +61,8 @@ footer a {
 section{
   padding: 60px;
 }
+/* footer ends */
+
 /* Hero Style Start */
 .hero{
   background-image: url(../images/hero-bg.jpg);
@@ -98,6 +104,8 @@ section{
   font-size: 16px;
 }
 /* Hero Styles End */
+
+/* intro starts */
 .intro {
   text-align: center;
 }
@@ -110,7 +118,7 @@ section{
   border-color: #fce138;
 }
 .intro h2 {
-  /* add this alongside your other declerations */
+
   display: inline-block;
 }
 .intro p {
@@ -119,4 +127,77 @@ section{
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+}
+/* intro ends */
+
+/* steps start */
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+.steps h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #39a6b2;
+}
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+/* steps end */
+
+/* thrainers start */
+.trainers {
+  text-align: center;
+}
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
 }
